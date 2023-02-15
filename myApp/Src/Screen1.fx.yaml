@@ -1,0 +1,120 @@
+Screen1 As screen:
+
+    DatePicker1 As datepicker:
+        OnChange: =DataTable2.Fill
+        X: =207
+        Y: =60
+        ZIndex: =1
+
+    "'texto.Data' As label":
+        Text: ="Data"
+        X: =54
+        Y: =60
+        ZIndex: =3
+
+    "'texto.Canal' As label":
+        Text: ="Canal"
+        Width: =124
+        X: =54
+        Y: =118
+        ZIndex: =5
+
+    Radio2 As radio:
+        Default: =""
+        Items: =["Recebimento de Roteiros", "Envio de Grade"]
+        Width: =302
+        X: =578
+        Y: =60
+        ZIndex: =6
+
+    DataTable2 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =474
+        Items: =Filter('Testes A1',"dateFilter.Selected.chave" in chave)
+        NoDataText: =
+        Width: =1260
+        X: =57
+        Y: =202
+        ZIndex: =7
+
+        chave_Column2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="chave"
+            FieldName: ="Chave"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.chave
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =2
+
+        data_do_evento_Column2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="data_do_evento"
+            FieldName: ="data_do_evento"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.data_do_evento
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =4
+
+        ponto_do_evento_Column2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="ponto_do_evento"
+            FieldName: ="ponto_do_evento"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            IsHyperlink: =true
+            LayoutHeight: =Parent.Height
+            Order: =5
+            Text: =ThisItem.ponto_do_evento
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =5
+
+        arquivo_Column2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="arquivo"
+            FieldName: ="arquivo"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.arquivo
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =7
+
+    ComboBox1 As combobox:
+        DisplayFields: =["Nome"]
+        IsSearchable: =false
+        Items: =canais
+        NoSelectionText: ="Canais"
+        SearchFields: =["Nome"]
+        SearchItems: =[]
+        SelectMultiple: =false
+        X: =204
+        Y: =117
+        ZIndex: =8
+
+    comboBox_dateFilter As combobox:
+        DisplayFields: =["Chave"]
+        InputTextPlaceholder: ="Todas as datas"
+        Items: ='Testes A1'
+        SearchFields: =["data_do_evento"]
+        SearchItems: =Search('Testes A1',comboBox_dateFilter.SearchText,"data_do_evento")
+        X: =939
+        Y: =100
+        ZIndex: =9
+

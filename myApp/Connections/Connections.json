@@ -1,0 +1,34 @@
+{
+  "72c4a86b-4855-42d6-bcbf-d765e381a6ec": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/gateway/greyhound/3000.150.11/1.0.1613.3116/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://tvglobocorp.sharepoint.com/sites/IBMS-KB": {
+        "dataSources": {
+          "canais": {
+            "tableName": "e0326997-59ea-459e-ad3e-8a17c8e943c9"
+          },
+          "Testes A1": {
+            "tableName": "a869da96-e710-4a8e-acaf-b33e61e2a151"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Testes A1",
+      "canais"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "72c4a86b-4855-42d6-bcbf-d765e381a6ec"
+  }
+}

@@ -1,0 +1,121 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr4e1_animaldeestimacaos",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr4e1_animaldeestimacao",
+    "MaxGetRowsCount": 500,
+    "Name": "Animal de estimação",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "cr4e1_Account": "Conta",
+      "cr4e1_animaldeestimacao_AsyncOperations": "Trabalhos do Sistema",
+      "cr4e1_animaldeestimacao_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "cr4e1_animaldeestimacao_DuplicateBaseRecord": "Registros Duplicados (cr4e1_animaldeestimacao_DuplicateBaseRecord)",
+      "cr4e1_animaldeestimacao_DuplicateMatchingRecord": "Registros Duplicados (cr4e1_animaldeestimacao_DuplicateMatchingRecord)",
+      "cr4e1_animaldeestimacao_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "cr4e1_animaldeestimacao_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "cr4e1_animaldeestimacao_ProcessSession": "Sessões de Processo",
+      "cr4e1_animaldeestimacao_SyncErrors": "Erros de Sincronização",
+      "cr4e1_animaldeestimacaoid": "Animal de estimação",
+      "cr4e1_datadocompromisso": "Data do compromisso",
+      "cr4e1_especie": "Espécie",
+      "cr4e1_nomedoanimaldeestimacao": "Nome do animal de estimação",
+      "cr4e1_raca": "Raça",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário da Conversão UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Animal de estimação",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Animal de estimação (Modos de exibição)",
+    "Name": "_cr4e1_animaldeestimacao_views",
+    "RelatedEntityName": "Animal de estimação",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0ff63bf7-63f1-4f47-b799-acdf181f5aa4": "Animal de estimação Ativos(as)",
+      "25dc809f-92a7-4442-b157-3dd58129bb9d": "Exibição de Consulta de Animal de estimação",
+      "3e905464-31ee-4935-a398-0d0138eb3865": "Exibição Associada de Animal de estimação",
+      "5559f8a9-5302-437c-905b-ade2c9b60730": "Animal de estimação Inativos(as)",
+      "abf39182-362d-47c5-a8df-1391fd509bc6": "Exibição de Localização Avançada de Animal de estimação"
+    }
+  },
+  {
+    "DisplayName": "Status (Animal de estimação)",
+    "Name": "cr4e1_animaldeestimacao_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Animal de estimação"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Animal de estimação",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Animal de estimação)",
+    "Name": "cr4e1_animaldeestimacao_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Animal de estimação"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Animal de estimação",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Espécie",
+    "Name": "cr4e1_especie",
+    "OptionSetInfoNameMapping": {
+      "924830000": "Cachorro",
+      "924830001": "Gato"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr4e1_especie",
+        "OptionSetReferenceEntityName": "Animal de estimação"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr4e1_especie",
+    "RelatedEntityName": "Animal de estimação",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "arquivo_Column2": 11,
+    "chave_Column2": 12,
+    "comboBox_dateFilter": 7,
+    "ComboBox1": 8,
+    "data_do_evento_Column2": 13,
+    "DataTable2": 10,
+    "DatePicker1": 5,
+    "ponto_do_evento_Column2": 14,
+    "Radio2": 6,
+    "Screen1": 3,
+    "texto.Canal": 9,
+    "texto.Data": 4
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "02/15/2023 00:14:25",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {
+    "72c4a86b-4855-42d6-bcbf-d765e381a6ec": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/018721bdb0054ff9bbf2bc9099211404\""
+  },
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "Animal de estimação": 8,
+    "Animal de estimação\\cr4e1_animaldeestimacao_statecode": 1,
+    "Animal de estimação\\cr4e1_animaldeestimacao_statuscode": 2,
+    "Animal de estimação\\cr4e1_especie": 0,
+    "Animal de estimação\\default.cds_cr4e1_animaldeestimacao_views": 3,
+    "canais": 7,
+    "ComboBoxSample": 5,
+    "RadioSample": 6,
+    "Testes A1": 4
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "combobox": 3,
+    "datepicker": 1,
+    "label": 0,
+    "radio": 2
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "arquivo_Column2": {},
+    "chave_Column2": {},
+    "comboBox_dateFilter": {},
+    "ComboBox1": {},
+    "data_do_evento_Column2": {},
+    "DataTable2": {},
+    "DatePicker1": {},
+    "ponto_do_evento_Column2": {},
+    "Radio2": {},
+    "Screen1": {},
+    "texto.Canal": {},
+    "texto.Data": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "arquivo_Column2": 7,
+    "chave_Column2": 8,
+    "comboBox_dateFilter": 3,
+    "ComboBox1": 4,
+    "data_do_evento_Column2": 9,
+    "DataTable2": 6,
+    "DatePicker1": 1,
+    "ponto_do_evento_Column2": 10,
+    "Radio2": 2,
+    "Screen1": 0,
+    "texto.Canal": 5,
+    "texto.Data": 0
+  },
+  "ResourcesJsonIndices": {},
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0976834,
+    "ControlCount": {
+      "combobox": 2,
+      "dataTable": 1,
+      "dataTableColumn": 4,
+      "datepicker": 1,
+      "label": 2,
+      "radio": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 4.6199297,
+    "ErrorCount": 2
+  },
+  "WasLocalDatabaseReferencesEmpty": false
+}
